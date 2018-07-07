@@ -3,7 +3,7 @@ import json
 import time
 
 class Block:
-    def __init__(self, index, transactions, timestamp):
+    def __init__(self, index, transactions, timestamp, previous_hash):
         self.index = []
         self.transactions = transactions
         self.timestamp = timestamp
